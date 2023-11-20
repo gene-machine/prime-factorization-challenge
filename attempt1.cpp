@@ -21,7 +21,7 @@ int main(){
                 factors.push_front(*prime_it);}
             while(composite % *prime_it == 0);}
             
-        //find next prime
+        //TODO: find next prime
         prime_it++;
     }
     
